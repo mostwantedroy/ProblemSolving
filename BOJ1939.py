@@ -18,7 +18,6 @@ def bfs(start, end, weight):
     
     return visited[int(end)]
 
-
 if __name__ == "__main__":
     N, M = map(int, list(sys.stdin.readline().split()))
     
