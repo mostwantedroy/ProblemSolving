@@ -1,5 +1,6 @@
-a = {4 : 2}
-b = {1 : 5, 9 : 0, 8 : 7}
+import sys
 
-for i in b:
-    print(i)
+graph = dict()
+graph['5']
+print(graph)
+
