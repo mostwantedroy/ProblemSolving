@@ -2,6 +2,7 @@ import sys
 
 if __name__ == "__main__":
     N, K = map(int, sys.stdin.readline())
+<<<<<<< HEAD
     stuff = list()
     
     weight_min = 10**6
@@ -21,3 +22,15 @@ if __name__ == "__main__":
             temp += 
         dp[i] = 
     
+=======
+    
+    stuff = list()
+    for _ in range(N):
+        W, V = map(int, sys.stdin.readline())
+        stuff.append([W, V])
+    
+    dp = [[0 for i in range(K + 1)] for j in range(N + 1)]
+    
+    for i in range(1, N + 1):
+        weight, value = 
+>>>>>>> eea73150165e58f7816c44385c69763eadcf5036
