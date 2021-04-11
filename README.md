@@ -10,7 +10,7 @@ BOJ :
 
 
 LeetCode :   
-64. Minimun Path Sum
-70. Climbing Stairs
-71. 322. Coin Change
-746. Min Cost Climbing Stairs
+64. Minimun Path Sum  
+70. Climbing Stairs  
+71. 322. Coin Change  
+746. Min Cost Climbing Stairs  
