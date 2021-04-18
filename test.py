@@ -1,6 +1,7 @@
-import sys
+def maker(m):
+    def inner(n):
+        return m * n
+    return inner
 
-graph = dict()
-graph['5']
-print(graph)
-
+f1 = maker(2)
+print(f1.__dict__)
